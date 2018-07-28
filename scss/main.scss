@@ -1,5 +1,6 @@
 @import 'config';
 @import 'menu';
+@import 'mobile';
 
 * {
     box-sizing: border-box;
@@ -20,6 +21,7 @@ h1,h2,h3 {
 
     &.lg-heading {
         font-size: 6rem;
+        font-weight: 600;
     }
 
     &.sm-heading {
