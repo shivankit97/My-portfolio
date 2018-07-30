@@ -1,6 +1,7 @@
 //Widescreens 
 @include mediaXl {
 
+
 }
 
 //Desktops & laptops
@@ -57,6 +58,10 @@
 
         grid-template-columns: 1fr;
     }
+
+    .projects {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 //Smartphones
@@ -64,5 +69,9 @@
     main#home h1 {
         margin-top: 10vh;
         font-size: 4rem;
+    }
+
+    .projects {
+        grid-template-columns: 1fr;
     }
 }
