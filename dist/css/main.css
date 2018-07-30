@@ -272,4 +272,6 @@ main {
     margin-top: 10vh;
     font-size: 4rem; }
   .projects {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  main#contact h1 {
+    font-size: 4rem; } }
